@@ -3,11 +3,14 @@ package com.example.product;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 public class ProductService {
     private List<Product> products = new ArrayList<>();
+    private int lastId = 0;
 
-    public void createProduct(String id, String name, double price, int quantity) {
+    public void createProduct(String name, double price, int quantity) {
+        String id = String.valueOf(++lastId);
         products.add(new Product(id, name, price, quantity));
     }
 
@@ -30,4 +33,11 @@ public class ProductService {
     public void deleteProduct(String id) {
         products.removeIf(product -> product.getId().equals(id));
     }
+
+    public List<Product> searchProductsByName(String keyword) {
+        return products.stream()
+                .filter(product -> product.getName().toLowerCase().contains(keyword.toLowerCase()))
+                .collect(Collectors.toList());
+    }
+
 }
