@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.product.ProductServiceTest" time="0.015" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.product.ProductServiceTest" time="0.008" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire14691684115315647221\surefirebooter11536118204332920584.jar C:\Users\ACER\AppData\Local\Temp\surefire14691684115315647221 2024-05-20T08-46-14_155-jvmRun1 surefire17769552625607516134tmp surefire_09553898063360336791tmp"/>
+    <property name="sun.java.command" value="C:\Users\ACER\AppData\Local\Temp\surefire386794936803847835\surefirebooter11889752845810163255.jar C:\Users\ACER\AppData\Local\Temp\surefire386794936803847835 2024-05-27T07-57-23_282-jvmRun1 surefire6175125956308104592tmp surefire_02311823456411576124tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\About Telkom University\Semester 6\Manajemen Konfigurasi &amp; Evolusi PL\Tugas Besar\productmanagement\target\test-classes;D:\About Telkom University\Semester 6\Manajemen Konfigurasi &amp; Evolusi PL\Tugas Besar\productmanagement\target\classes;C:\Users\ACER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ACER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire14691684115315647221\surefirebooter11536118204332920584.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ACER\AppData\Local\Temp\surefire386794936803847835\surefirebooter11889752845810163255.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -59,7 +59,7 @@
   <testcase name="testSearchProductsByName" classname="com.example.product.ProductServiceTest" time="0"/>
   <testcase name="testCreateProduct" classname="com.example.product.ProductServiceTest" time="0"/>
   <testcase name="testGetProduct" classname="com.example.product.ProductServiceTest" time="0"/>
-  <testcase name="testUpdateProduct" classname="com.example.product.ProductServiceTest" time="0.015"/>
+  <testcase name="testUpdateProduct" classname="com.example.product.ProductServiceTest" time="0"/>
   <testcase name="testListProducts" classname="com.example.product.ProductServiceTest" time="0"/>
   <testcase name="testDeleteProduct" classname="com.example.product.ProductServiceTest" time="0"/>
 </testsuite>

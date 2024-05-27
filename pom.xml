@@ -16,6 +16,13 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Product Management Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/herlinpriatna/productmanagement</url>
+   </repository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
