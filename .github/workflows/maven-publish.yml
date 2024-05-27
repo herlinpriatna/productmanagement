@@ -34,3 +34,11 @@ jobs:
       run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+    - name: Create Github Release
+      uses: actions/create-release@v0.1.0
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        tag_name: ${{github.run_number}}
+        release_name: Release ${{ github.run_number}}
+        
