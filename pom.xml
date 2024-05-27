@@ -6,7 +6,7 @@
 
   <groupId>com.example</groupId>
   <artifactId>productmanagement</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>v0.1.1</version>
 
   <name>productmanagement</name>
   <url>http://www.example.com</url>
